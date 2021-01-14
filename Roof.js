@@ -1,0 +1,21 @@
+
+
+class Roof{
+    constructor(x,y,w,h){
+        this.body = Bodies.rectangle(x,y,w,h,{isStatic:true});
+        this.x = x;
+        this.y = y;
+        this.w = w;
+        this.h = h;
+        World.add(world,this.body);
+    }
+
+    display(){
+        push();
+        strokeWeight(3);
+       
+        rectMode(CENTER)
+        rect(this.x,this.y,this.w,this.h);
+        pop();
+    }
+}
