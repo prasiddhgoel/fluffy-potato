@@ -20,10 +20,10 @@ function setup() {
 	//Create the Bodies Here.
 
   bob1= new Bob(200,300,20)
-  bob2 = new Bob(250,300,20)
-  bob3 = new Bob(150,300,20)
-  bob4= new Bob(300,300,20)
-  bob5 = new Bob(100,300,20)
+  bob2 = new Bob(240,300,20)
+  bob3 = new Bob(160,300,20)
+  bob4= new Bob(280,300,20)
+  bob5 = new Bob(120,300,20)
   roof1= new Roof(200,30,250,20)
   rope1= new Rope(bob1.body,roof1.body)
   rope2= new Rope (bob2.body,roof1.body)
